@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(33, 37, 41);
+}
+.logo,
+.nav-link {
+  color: aliceblue !important;
+  margin: 10px;
+  font-family: prata;
+}
+.btn {
+  color: black !important;
+  background-color: gold !important;
+  border-radius: 0px;
+}
+.hero-title {
+  color: aliceblue;
+  font-size: 2.5vw;
+  font-family: inter;
+}
+
+.hero-txt {
+  color: rgba(240, 248, 255, 0.431);
+}
+
+.svg-container svg {
+  height: 50px;
+  margin: 55px;
+}
+.section {
+  display: flex;
+}
+.card-div {
+  display: flex;
+  justify-content: space-between;
+}
+.card-text {
+  color: rgba(240, 248, 255, 0.431);
+  margin-top: 25px;
+  margin-bottom: 50px !important;
+}
+.cardDoneByMyself {
+  word-break: break-word;
+}
+.card-title {
+  color: aliceblue;
+  margin-top: 25px;
+  font-family: inter;
+}
+.secondsection {
+  background-color: rgb(46 48 56);
+}
+.secondsection .title {
+  color: aliceblue;
+  margin-top: 50px;
+}
+.secondsection .first-p {
+  color: rgba(240, 248, 255, 0.431);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.secondsection .second-p {
+  color: rgba(240, 248, 255, 0.431);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.second-div .first-p,
+.second-div .second-p,
+.second-div .third-p,
+.second-div .fourth-p {
+  color: rgba(240, 248, 255, 0.431);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card-two-title {
+  color: aliceblue;
+  font-family: inter;
+  font-size: 3vw;
+}
+.btn-two {
+  background-color: gold;
+  border-radius: 0px;
+}
+.card-two-text {
+  color: aliceblue;
+}
+.footer-custom {
+  background-color: rgb(46 48 56) !important;
+}
+.icon-spacing {
+  margin-left: 25px;
+}
+h5 {
+  color: aliceblue;
+}
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 5vw;
+  }
+  .logos {
+    text-align: center;
+  }
+  .card-two-title {
+    color: aliceblue;
+    font-family: inter;
+    font-size: 36px;
+    margin-bottom: 30px !important;
+  }
+}
